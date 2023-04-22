@@ -1,0 +1,77 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+body{
+    background-image: linear-gradient(75deg,red,purple);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+#Outercont{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    width: 80vw;
+    height: 70vh;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    background-image: linear-gradient(75deg,rgb(76, 3, 76),rgb(144, 144, 222));
+}
+#innercount{
+    width:50%;
+    height: 60%;
+    background-color: black;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 5px 5px 5px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+#heading{
+    color: white;
+    position: absolute;
+    top:10px;
+    font-size: 40px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 10px;
+}
+.inputdiv{
+    width: 65%;
+    height: 30px;
+    border: 4px solid royalblue;
+    margin-top: 20px;
+    border-radius: 200px;
+    position: relative;
+    left:7vw;
+}
+.inputtags{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 100%;
+    padding-left: 10px;
+    font-size: 20px;
+}
+#loginbutton{
+    background-color: transparent;
+    border: 3px solid lawngreen;
+    position: absolute;
+    bottom: 5px;
+    left:30%;
+    width: 150px;
+    height: 30px;
+    border-radius: 200px;
+    font-size: 20px;
+    font-weight: bold;
+    color:pink'
+}
+#status{
+    color:red;
+    font-size: 21px;
+    text-align: center;
+}
